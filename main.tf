@@ -4,7 +4,7 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "rg" {
   name     = "aci-rg"
-  location = "East US"
+  location = "East US 2"
 }
 
 resource "azurerm_container_group" "aci" {
